@@ -58,14 +58,14 @@ int main()
 	int i;
 	cout<<"\n Enter the name of the employee to search:";
 	cin>>searchname;
-	bool found="false";
+	int found = 0;
 	for(i=0;i<5;i++)
 	{
 		if(strcmp(employees[i].getname(),searchname)==0)
 		{
 			cout<<"\n Employee found : "<<endl;
 			employees[i].display();
-			found="true";
+			found = 1;
 			break;
 		}
 	}
