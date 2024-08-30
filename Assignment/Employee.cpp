@@ -1,6 +1,7 @@
 /* Write a program to create class employee(eid,ename,department,salry)
 [1]Input 5 employee data using constructor as well as print it using constructor
-[2]Implement searching employee records based on employee name */
+[2]Implement searching employee records based on employee name*/
+// By taking input from user 
 
 #include <iostream.h>
 #include <conio.h>
